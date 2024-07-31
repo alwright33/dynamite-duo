@@ -1,0 +1,41 @@
+.movie { /*This class selector targets each movie card. We apply the following styles:*/
+    flex-basis: 300px; /*to set the initial size of the movie card to 300 pixels.*/
+    flex-grow: 1; /*to allow the movie card to grow and fill the available space.*/
+    max-width: 400px; /*to set a maximum width of 400 pixels for the movie card.*/
+    margin-bottom: 20px; /*to add some vertical spacing between movie cards.*/
+    display: flex; /*to create a flex container, allowing the movie poster and details to be displayed side by side.*/
+    flex-direction: row; /*to arrange the movie poster and details horizontally.*/
+    background-color: #ffffff; /*to set a white background color for the movie card.*/
+    border-radius: 8px; /*to add rounded corners to the movie card.*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);/*to apply a shadow effect, giving the movie card a raised appearance.*/
+    overflow: hidden;/*to ensure the content stays within the movie card and the rounded corners are maintained.*/
+    transition: transform 0.3s ease;/*to add a smooth transition effect when hovering over the movie card.*/
+}
+
+.movie:hover {/* This pseudo-class selector targets the movie card when it is being hovered over. We apply the following styles:*/
+    transform: translateY(-5px);/*to slightly lift the movie card upwards when hovered.*/
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);/* to apply a more prominent shadow effect when the movie card is hovered, 
+    enhancing the visual feedback.*/
+}
+
+.movie__poster {/*This class selector targets the movie poster image. We apply the following style:*/
+    max-width: 10rem;/*to set a maximum width of 10 rem (relative unit) for the movie poster, 
+    ensuring it doesn't exceed a certain size.*/
+}
+
+.movie__details {/* This class selector targets the movie details container. We apply the following style:*/
+    padding: 20px;/* to add some inner spacing within the movie details container.*/
+}
+
+.movie__title {/*This class selector targets the movie title. We apply the following styles:*/
+    font-size: 20px;/*to set a larger font size for the movie title.*/
+    font-weight: bold;/*to make the movie title bold.*/
+    margin-bottom: 10px;/*to add some spacing below the movie title.*/
+    color: #333333;/*to set a dark gray color for the movie title text.*/
+}
+
+.movie__description {/*This class selector targets the movie description. We apply the following styles:*/
+    font-size: 14px;/*to set a smaller font size for the movie description.*/
+    color: #666666;/*to set a lighter gray color for the movie description text.*/
+    line-height: 1.5;/*to set the line height for better readability.*/
+}
