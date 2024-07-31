@@ -20,7 +20,7 @@ export const renderMoviesToDOM = (movieHTML) => {
     }
  };
 
- /*In this chapter, we created a JavaScript module that renders the movie cards HTML to the DOM.
+ /* We created a JavaScript module that renders the movie cards HTML to the DOM.
   The renderMoviesToDOM function takes the generated HTML markup as a parameter and inserts it into the specified DOM element.
 
 We use document.getElementById('movie-list') to select the DOM element with the ID "movie-list". 

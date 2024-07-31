@@ -39,3 +39,19 @@
     color: #666666;/*to set a lighter gray color for the movie description text.*/
     line-height: 1.5;/*to set the line height for better readability.*/
 }
+
+
+/*we styled the movie cards using CSS to enhance their visual presentation. We defined styles for the movie card container,
+ movie poster, movie title, and movie description.
+
+We applied background color, border radius, and box shadow to the movie card to create a visually appealing card-like appearance. 
+The [overflow: hidden] property ensures that the content stays within the card and the rounded corners are maintained.
+
+The [:hover] pseudo-class selector is used to apply additional styles when the movie card is being hovered over. We used the 'transform' 
+property to slightly lift the card upwards and increased the box shadow intensity to provide visual feedback and enhance the interactive experience.
+
+We also styled the movie title and description by setting appropriate font sizes, colors, and spacing to improve readability and visual 
+hierarchy.
+
+Feel free to further customize the styles based on your design preferences. You can experiment with different colors, fonts, spacing, 
+and additional CSS properties to create a unique and visually striking movie showcase.*/
