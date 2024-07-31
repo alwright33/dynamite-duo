@@ -1,4 +1,4 @@
-import { movies } from './movies-data.js'
+import { movies } from './movies-data.js';
 
 //We define a function called 'generateMoviesHTML' using an arrow function syntax.
 export const generateMoviesHTML = () => {
@@ -14,12 +14,14 @@ export const generateMoviesHTML = () => {
                    <p class="movie__description">${movie.description}</p>
                </div>
            </article>
-        ` /*We create an <article> element with the class "movie" to represent each movie card.
+        `
+         /*We create an <article> element with the class "movie" to represent each movie card.
 Inside the <article>, we have an <img> element that displays the movie poster image. The src attribute is set to the poster property of the movie object, and the alt attribute is set to the movie title followed by "poster" for accessibility.
 We also have a <div> element with the class "movie__details" to hold the movie title and description.
 The movie title is wrapped in an <h2> element with the class "movie__title".
 The movie description is wrapped in a <p> element with the class "movie__description"*/   
-    } //We concatenate each generated movie HTML to the movieHTML string.
+    } 
+    //We concatenate each generated movie HTML to the movieHTML string.
     //Finally, we return the movieHTML string containing the generated HTML markup for all the movies.
     return movieHTML
 }
