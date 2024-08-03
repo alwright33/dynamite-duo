@@ -1,0 +1,103 @@
+main {
+    position: relative;
+}
+
+.fish {
+    display: flex;
+    justify-content:flex-start;
+    max-width: 400px;
+    max-height: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    transition: transform 0.3s ease;
+    background-color: aliceblue;
+}
+
+header {
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid #000;
+}
+
+.fish:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.fish__image {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.fish__details {
+    padding-left:20px;
+}
+
+.fish__name {
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 40px;
+    color: #333333;
+    position: relative;
+    bottom: 40px;
+    text-decoration: underline;
+}
+
+.fish__species {
+    font-size: 25px;
+    color: #0c0000;
+    line-height: 1.5;
+    position: relative;
+    bottom: 65px;
+}
+
+.fish__info {
+    font-size: 20;
+    position: relative;
+    bottom: 85px;
+}
+
+body{
+    background-image: url('https://i.imgur.com/kWErku2.jpeg');
+    background-size: cover;
+}
+
+.tips:hover {
+    transform: translateY(-5px);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6); 
+}
+
+.tips {
+    list-style:;
+    padding-left: 5px;
+    margin: 0;
+    transition: transform 0.3s ease;
+}
+
+.tip {
+    padding: 10px;
+    border-bottom: 1px solid #444; 
+}
+
+.locations {
+    padding: 10px;
+    border-bottom: 1px solid #444;  
+}
+
+.locationHeader {
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.tipHeader {
+    font-size:x-large;
+}
